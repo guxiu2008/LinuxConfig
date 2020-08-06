@@ -11,8 +11,8 @@ set nocompatible
 set smartindent
 set showmatch
 set t_Co=8
-set t_Sf=[1;3%p1%dm
-set t_Sb=[1;4%p1%dm
+set t_Sf=p1%dm
+set t_Sb=p1%dm
 map <C-J> :set filetype=cpp<CR>
 set hls
 set incsearch
